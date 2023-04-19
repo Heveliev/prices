@@ -111,13 +111,11 @@ align-items:baseline;
     text-align: center;
 
 }
-
-.pricing__button{ width: 100%;
-    background-color: transparent;
+.pricing__button-link{
+    border: 1px solid black;
     border-radius: 6px;
     height: 40px;
-    font-size: 24px;}
-.pricing__button-link{
+    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,10 +184,6 @@ align-items:baseline;
         .pricing__item{
             max-width: 270px;
             flex-basis: calc((100% - 30px)/4);
-        }
-        .pricing__button:hover,
-        .pricing__button:focus{
-            background-color: var(--hover-focus);
         }
         .pricing__button-link:hover,
         .pricing__button-link:focus{
